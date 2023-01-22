@@ -133,3 +133,77 @@ header{
     font-weight: 600;
     font-size: 1.5vw;
 }
+
+/* working section */
+
+.working{
+    background-color: white;
+    margin: 10vh 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.working h1{
+    font-size: 3.2vw;
+    font-weight: 900;
+    margin: 2vh 0 0 0;
+}
+
+.workingSec{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15vh;
+    height: 80vh;
+    width: 65vw;
+}
+
+.workingSecText{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width:35vw;
+}
+
+.workingSecText img{
+    height: 11vh;
+    width: 11vh;
+}
+
+.workingSecText div{
+    margin-top: 15vh;
+}
+
+.workingSecText div h2{
+    font-size: 2.3vw;
+    font-weight: 700;
+    margin: 2vh 0;
+}
+
+.workingSecText div p{
+    font-size: 1.5vw;
+    margin: 2vh 0;
+    text-align: justify;
+    width: 35vw;
+    margin-top: 3vh;
+    color:#444444;
+}
+
+.workingSecImage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 30vw;
+    align-items: flex-end;
+}
+
+.workingSecImage:nth-child(odd){
+    align-items: flex-start;
+}
+
+.workingSecImage img{
+    height: 80vh;
+}
