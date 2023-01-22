@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4vh;
+    height: 12vh;
+    font-size: 3vh;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-weight: 600;
+}
+
+.navbar ul li .navCTA{
+    background-color: #F2C747;
+    padding: 0.7vh 1vh;
+    border-radius: 50px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar .logo img{
+    height: 9vh;
+}
+.navbar li a{
+    padding: 0px 3vh;
+    text-decoration: none;
+    color: white;
+}
+
+/* bubble section */
+.hero{
+    background-color: black;
+    margin-top: 12vh;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.bubble{
+    height: 40vh;
+}
+
+.heroText{
+    margin-top: 5vh;
+    width: 50vw;
+}
+
+.heroText p{
+    font-size: 10vh;
+    font-weight: 700;
+    margin: 2vh 0;
+}
+
+.heroText p .accentText{
+    color: #F2C747;
+}
+
+.discription{
+    background-color: #F2C747;
+    height: 88vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 0px 5vh;
+}
+
+.discription .discriptionText{
+    width: 55vw;
+}
+
+.discription .discriptionText h1{
+    font-size: 3.6vw;
+    font-weight: 500;
+    margin: 2vh 0;
+}
+.discription .discriptionText h1 span{
+    font-weight: 900;
+    font-style: italic;
+}
+
+.discription .discriptionText p{
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin: 2vh 0;
+    text-align: justify;
+    width: 40vw;
+    margin-top: 3vh;
+}
+
+.discription .discriptionImage{
+    width: 35vw;
+}
+
+.discription .discriptionImage img{
+    height: 25vw;
+}
+
+.discription .discriptionCTA{
+    margin-top: 8vh;
+}
+
+.discription .discriptionCTA a{
+    background-color: #000;
+    padding: 1vh 3vh;
+    border-radius: 50px;
+    color: #F2C747;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
