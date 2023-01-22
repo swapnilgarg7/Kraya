@@ -86,7 +86,7 @@ header{
     justify-content: space-between;
     align-items: center;
     color: black;
-    padding: 0px 5vh;
+    padding: 0px 9vh;
 }
 
 .discription .discriptionText{
@@ -94,7 +94,7 @@ header{
 }
 
 .discription .discriptionText h1{
-    font-size: 3.6vw;
+    font-size: 3.2vw;
     font-weight: 500;
     margin: 2vh 0;
 }
