@@ -301,3 +301,15 @@ header{
     background-color: #000;
     cursor: pointer;
 }
+
+.commingSoon{
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #F2C747;
+    font-size: 7vh;
+    font-weight: 900;
+    background: url("assets/imgs/commingSoon.png");
+}
