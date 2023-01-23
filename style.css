@@ -313,3 +313,11 @@ header{
     font-weight: 900;
     background: url("assets/imgs/commingSoon.png");
 }
+
+.faq{
+    height: 88vh;
+}
+.footer{
+    height: 50vh;
+    background-color: #000;
+}
