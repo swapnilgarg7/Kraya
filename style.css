@@ -23,6 +23,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 2;
 }
 
 .navbar{
@@ -315,9 +316,154 @@ header{
 }
 
 .faq{
-    height: 88vh;
+    height: 100vh;
+    margin: 4vh 2vw;
+    position: relative;
 }
-.footer{
+
+.faq h1{
+    font-size: 6vh;
+}
+
+.faq .faqQues{
+    position: absolute;
+    top: 30vh;
+    left: 0;
+    width: 50vw;
+    padding-left: 5vw;
+}
+
+.faq .faqQue{
+    display: flex;
+    width: 50vw;
+    padding: 2vh;
+    border: #000 1px solid;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3vh;
+    margin: 2vh 0;
+    cursor: pointer;
+    background-color: white;
+}
+
+.faq .faqQue div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faq .faqQue div i{
+    margin-right: 2vw;
+}
+
+.faq .faqAns{
+    height: 70vh;
+    width: 50vw;
+    position: absolute;
+    top: 15vh;
+    right: 0;
+    margin-right: 5vw;
+    border-radius: 70px;
+    background-color: #F54C71;
+    z-index: -1;
+}
+
+.faq .faqAns div{
     height: 50vh;
+    width: 30vw;
+    transform: translate(45%, 50%);
+    margin-left: 2vw;
+    text-align: justify;
+}
+
+.faq .faqAns div h3{
+    font-size:3vh;
+    margin-bottom: 2vh;
+    font-weight: 800;
+}
+
+.faq .faqAns div p{
+    font-size: 2vh;
+    font-weight: 400;
+    color: #000;
+    line-height: 3.5vh;
+}
+
+.faq .faqCTA{
+    display: flex;
+    width: 45vw;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 23vw;
+    background-color: ;
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.faq .faqCTA a{
+    background-color: #F2C747;
+    padding: 0.7vh 2vh;
+    border-radius: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer{
+    height: 60vh;
     background-color: #000;
+    padding: 5vh 5vw;
+    color: white;
+}
+
+.footer .contactUs{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    flex-direction: column;
+}
+.footer .contactUs h2{
+    font-size: 3vh;
+    font-weight: 700;
+    margin-bottom: 1.5vh;
+}
+
+.footer .contactUs input{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 30px;
+    padding: 0 1vw;
+    margin: 0.5vh 0;
+    color: #5A5A5A;
+    font-size: 2vh;
+    font-weight: 400;
+}
+
+.footer .contactUs textarea{
+    width: 30vw;
+    border-radius: 30px;
+    padding: 1vh 1vw;
+    margin: 0.5vh 0;
+    color: #5A5A5A;
+    font-size: 2vh;
+    font-weight: 400;
+}
+
+.footer .contactUs button{
+    height: 5vh;
+    width: max-content;
+    padding: 1vh 2vw;
+    margin-top: 1vh;
+    border-radius: 30px;
+    background-color: #F2C747;
+    color: #000;
+    font-size: 2vh;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer .contactUs button i{
+    transform: translate(0.3vw, 0.2vh);
 }
