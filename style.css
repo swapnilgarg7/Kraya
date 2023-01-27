@@ -782,11 +782,20 @@ header{
     text-decoration: none;
 }
 
+
+.commingSoon{
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #F2C747;
+    font-size: 3vh;
+    font-weight: 900;
+    background: url("assets/imgs/commingSoon.png");
+}
     
     .working{
-        display: none;
-    }
-    .commingSoon{
         display: none;
     }
     .faq{
