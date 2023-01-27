@@ -50,6 +50,17 @@ header{
     font-weight: 600;
 }
 
+
+.navbar ul .MOBmenu, .navbar ul .MOBmenu .navCTA{
+    display: none;
+}
+
+.navbar ul .MOBmenu .navCTA{
+    padding: 0.7vh 4vh;
+    cursor: pointer;
+}
+
+
 .navbar .logo img{
     height: 9vh;
 }
@@ -91,14 +102,23 @@ header{
     color: #F2C747;
 }
 
-.discription{
+
+
+/*  Discription section */
+
+
+
+.discriptionSection{
     background-color: #F2C747;
-    height: 88vh;
+    height: 80vh;
+    color: black;
+    padding: 10vh 9vh 0 9vh;
+}
+
+.discription{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    color: black;
-    padding: 0px 9vh;
+    align-items: flex-start;
 }
 
 .discription .discriptionText{
@@ -106,7 +126,7 @@ header{
 }
 
 .discription .discriptionText h1{
-    font-size: 3.2vw;
+    font-size: 3.5vw;
     font-weight: 500;
     margin: 2vh 0;
 }
@@ -118,7 +138,7 @@ header{
 .discription .discriptionText p{
     font-size: 1.2vw;
     font-weight: 400;
-    margin: 2vh 0;
+    margin: 2vh 0 0 0 ;
     text-align: justify;
     width: 40vw;
     margin-top: 3vh;
@@ -130,13 +150,15 @@ header{
 
 .discription .discriptionImage img{
     height: 25vw;
+    margin-top: 10vh;
 }
 
-.discription .discriptionCTA{
-    margin-top: 8vh;
+.discriptionSection .discriptionCTA{
+    margin-bottom: 8vh;
+    margin-top: -15vh;
 }
 
-.discription .discriptionCTA a{
+.discriptionSection .discriptionCTA a{
     background-color: #000;
     padding: 1vh 3vh;
     border-radius: 50px;
@@ -495,4 +517,115 @@ header{
     width: 2vw;
     margin: 0 1vw;
     cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+
+    .navbar{
+        padding: 0px 2vh;
+        height: 12vh;
+        font-size: 2vh;
+    }
+  
+    .navbar ul .PCmenu, .navbar ul .PCmenu .navCTA{
+        display: none;
+    }
+
+    .navbar ul .MOBmenu, .navbar ul .MOBmenu .navCTA{
+        display: block;
+    }
+    
+    .navbar .logo img{
+        height: 8vh;
+    }
+
+    /* bubble section */
+
+    .bubble{
+        height: 35vh;
+    }
+
+    .heroText{
+        width: 80vw;
+    }
+
+    .heroText p{
+        font-size: 7vh;
+    }
+
+
+    
+/*  Discription section */
+
+
+
+.discriptionSection{
+    padding: 4vh 0;
+    height: max-content;
+}
+
+.discription{
+    flex-direction: column;
+}
+
+.discription .discriptionText{
+    width: 85vw;
+    margin: auto;
+}
+
+.discription .discriptionText h1{
+    font-size: 4vh;
+    line-height: 5vh;
+    margin: 2vh 0;
+}
+
+.discription .discriptionText p{
+    font-size: 2vh;
+    font-weight: normal;
+    margin: auto;
+    width: 85vw;
+    margin-top: 3vh;
+    line-height: 3vh;
+}
+
+.discription .discriptionImage{
+    width: 85vw;
+    margin: auto;
+}
+
+.discription .discriptionImage img{
+    height: 30vh;
+    margin: auto;
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.discriptionSection .discriptionCTA{
+    width: 85vw;
+    margin: auto;
+    margin-top: 5vh;
+    display: flex;
+}
+
+.discriptionSection .discriptionCTA a{
+    padding: 2vh 10vw;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2.2vh;
+    margin: auto;
+}
+
+    .emailSubmit{
+        display: none;
+    }
+    .commingSoon{
+        display: none;
+    }
+    .faq{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
 }
