@@ -242,6 +242,10 @@ header{
     height: 80vh;
 }
 
+.workingMob{
+    display: none;
+}
+
 .emailSubmit{
     height: 88vh;
     display: flex;
@@ -268,6 +272,18 @@ header{
     font-size: 1.2vw;
     font-weight: 400;
     color: white;
+}
+
+.emailSubmit .emailSubmitLeft .emailDiss{
+    margin-left: 5vw;
+    margin-top: 15vh;
+    text-decoration: underline;
+    font-size: 3vh;
+    font-weight: 600;
+}
+
+.EmailMobileCTA{
+    display: none;
 }
 
 .emailSubmit .emailSubmitLeft .accentText{
@@ -616,7 +632,158 @@ header{
     margin: auto;
 }
 
-    .emailSubmit{
+.workingMob{
+    width: 90vw;
+    padding: 5vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.workingMob .workingMobSections{
+    width: 90vw;
+    position: relative;
+}
+
+.workingMob .workingMobSections .SectionNumber{
+    position: absolute;
+    top: 3vh;
+    left: 5vw;
+    width: 15vw;
+}
+
+.workingMob .workingMobSections .SectionImage{
+    width: 50vw;
+    margin: 7vh 0 0 25vw;
+}
+
+.workingMob .workingMobSections div{
+    width: 90vw;
+    margin: 5vh 0 0 5vw;
+    text-align: center;
+}
+
+
+.workingMob .workingMobSections div p{
+    font-size: 1.5vh;
+    font-weight: bold;
+    line-height: 3vh;
+    margin-top: 2vh;
+    color: #444444;
+}
+
+/*Email submit section*/
+
+.emailSubmit{
+    height: max-content;
+    display: flex;
+}
+
+.emailSubmit .emailSubmitLeft{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.emailSubmit .emailSubmitLeft h1{
+    font-size: 8vh;
+    font-weight: 700;
+    width: 80vw;
+    margin: 2vh 10vw;
+}
+
+.emailSubmit .emailSubmitLeft p{
+    width: 80vw;
+    margin: 2vh 10vw;
+    font-size: 2vh;
+    font-weight: 400;
+    color: white;
+}
+
+.emailSubmit .emailSubmitLeft .accentText{
+    color: #F2C747;
+}
+
+.emailSubmit .emailSubmitRight{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.emailSubmit .emailSubmitRight .ear{
+    display: flex;
+    width: 40vw;
+    height: 40vh;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh
+}
+
+
+.emailSubmit .emailSubmitRight div h1{
+    width: 20vw;
+    font-size: 6vh;
+}
+
+.emailSubmit .emailSubmitRight .emailSubmitForm{
+    width: 40vw;
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.emailSubmit .emailSubmitRight .emailSubmitForm input{
+    width: 36vw;
+    height: 7vh;
+    border: 1px solid #000;
+    border-radius: 100px 0 0 100px;
+    padding: 20px;
+    color: #000;
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.emailSubmit .emailSubmitRight .emailSubmitForm button{
+    width: 7vh;
+    height: 7vh;
+    border: 1px solid #000;
+    border-radius: 0 100px 100px 0;
+    font-size: 5vh;
+    color: #F54C71;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.emailSubmit .emailSubmitLeft .emailDiss{
+    width: 80vw;
+    margin: 3vh 10vw;
+    font-size: 2.2vh;
+}
+
+.EmailMobileCTA {
+    display: block;
+    width: max-content;
+}
+
+.emailSubmit .EmailMobileCTA a{
+    display: block;
+    background-color: #1E1E1E;
+    color: #fff;
+    font-size: 3vh;
+    padding: 1vh 2vh;
+    margin: 2vh 10vw;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    width: max-content;
+    text-decoration: none;
+}
+
+    
+    .working{
         display: none;
     }
     .commingSoon{
