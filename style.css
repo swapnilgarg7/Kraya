@@ -359,6 +359,10 @@ header{
     position: relative;
 }
 
+.faqMobile{
+    display: none;
+}
+
 .faq h1{
     font-size: 6vh;
 }
@@ -783,6 +787,7 @@ header{
 }
 
 
+
 .commingSoon{
     height: 88vh;
     display: flex;
@@ -794,14 +799,107 @@ header{
     font-weight: 900;
     background: url("assets/imgs/commingSoon.png");
 }
+
+
+
+.faqMobile{
+    display: block;
+    width: 90vw;
+    margin: 2vh auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.faqMobile img{
+    height: 40vh;
+    margin: 5vh auto;
+}
+
+.faqMobile h1{
+    font-size: 4vh;
+    font-weight: 700;
+    margin: 2vh auto;
+}
+
+.faqMobile hr{
+    width: 90vw;
+    height: 0.4vh;
+    border: none;
+    background-color: #B5BDD1;
+    margin: 2vh auto;
+}
+
+.faqMobile .mobfaqs{
+    text-align: start;
+    width: 80vw;
+    margin: 2vh auto;
+}
+
+.faqMobile .mobfaqs .mobFaqQues{
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faqMobile .mobfaqs .mobFaqQues h2{
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+
+.faqMobile .mobfaqs .mobFaqQues i{
+    font-size: 3vh;
+    color: #F2C747;
+}
+
+.faqMobile .mobfaqs .mobFaqAns{
+    display: none;
+    font-size: 2vh;
+    font-weight: thin;
+    color:  #43433cd9;
+    margin: 3vh auto;
+}
+
+.faqMobile .mobfaqs .queClicked{
+    display: block;
+}
+
+.footer{
+    margin-top: 5vh;
+    height: max-content;
+    padding: 8vh 2vw;
+}
+
+.footer .contactUs{
+    display: none;
+}
+
+
+.footer .socialLinks{
+    width: 100%;
+    height: max-content;
+    margin: 0;
+}
+
+.footer .socialLinks .footerlogo{
+    height: 9vh;
+    margin-bottom: 5vh;
+}
+
+.footer .socialLinks div p{
+    margin-top: 5vh;
+}
+
+.footer .socialLinks div img{
+    width: 4vh;
+    margin: 0 5vw;
+}
     
     .working{
         display: none;
     }
     .faq{
-        display: none;
-    }
-    .footer{
         display: none;
     }
 }
