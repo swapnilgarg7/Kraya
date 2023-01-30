@@ -42,7 +42,7 @@ const ques = {
   0: "What is Kraya?",
   1: "Why Kraya?",
   2: "How will things work ?",
-  3: "How will things work ?",
+  3: "What is the vision of Kraya?",
 };
 
 const ans = {
