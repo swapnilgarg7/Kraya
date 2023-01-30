@@ -891,7 +891,7 @@ header{
     margin: 3vh auto;
 }
 
-.faqMobile .mobfaqs .queClicked{
+.faqMobile .queClicked .mobFaqAns{
     display: block;
 }
 
