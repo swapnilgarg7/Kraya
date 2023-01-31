@@ -19,7 +19,8 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Kraya</title>
+    <link rel="icon" href="./assets/imgs/logo.png" type="image/x-icon" />
   </head>
   <body>
     <header>
@@ -103,7 +104,7 @@
             <h2>Set up a virtual storefront</h2>
             <p>
               Sellers get to create a virtual storefront where buyers can see
-              all the products at once. Having a virtual storefront elevates the
+              all the products at once.Having a virtual storefront elevates the
               brand and trust among your customers.
             </p>
           </div>
@@ -193,11 +194,15 @@
           <h1>You only hear from us when it matters.</h1>
           <img src="assets/imgs/ear.png" />
         </div>
-        <div class="emailSubmitForm">
-          <input type="text" placeholder="Enter Id" />
-          <input type="text" placeholder="Name" />
-          <button>Submit ➜</button>
-        </div>
+        <form
+          class="emailSubmitForm"
+          action="https://formsubmit.co/adarshnnnjena@gmail.com"
+          method="POST"
+        >
+          <input type="email" placeholder="Enter Id" name="email" />
+          <input type="text" placeholder="Name" name="name" />
+          <button type="submit">Submit ➜</button>
+        </form>
       </div>
     </div>
     <div class="commingSoon">
@@ -313,16 +318,21 @@
     <div class="footer">
       <div class="contactUs">
         <h2>Contact Us</h2>
-        <input type="text" placeholder="Name" />
-        <input type="text" placeholder="Email" />
-        <textarea
-          cols="30"
-          rows="10"
-          placeholder="Message.."
-          name="message"
-          required
-        ></textarea>
-        <button type="submit">Submit <i class="bx bx-send"></i></button>
+        <form
+          action="https://formsubmit.co/adarshnnnjena@gmail.com"
+          method="POST"
+        >
+          <input type="text" placeholder="Name" name="name" />
+          <input type="email" placeholder="Email" name="email" />
+          <textarea
+            cols="30"
+            rows="10"
+            placeholder="Message.."
+            name="message"
+            required
+          ></textarea>
+          <button type="submit">Submit <i class="bx bx-send"></i></button>
+        </form>
       </div>
       <div class="socialLinks">
         <img class="footerlogo" src="assets/imgs/KrayaLogo.png" />

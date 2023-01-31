@@ -51,30 +51,45 @@
       <div class="circle2"></div>
     </div>
     <div class="Contactform">
-      <form>
+      <form
+        action="https://formsubmit.co/adarshnnnjena@gmail.com"
+        method="POST"
+      >
         <div class="input-field">
-          <input id="first_name" type="text" class="validate" />
+          <input
+            id="first_name"
+            type="text"
+            class="validate"
+            name="first_name"
+          />
           <label for="first_name">First Name</label>
         </div>
         <div class="input-field">
-          <input id="last_name" type="text" class="validate" />
+          <input id="last_name" type="text" class="validate" name="last_name" />
           <label for="last_name">Last Name</label>
         </div>
         <div class="input-field">
-          <input id="email" type="email" class="validate" />
+          <input id="email" type="email" class="validate" name="email" />
           <label for="email">Email</label>
         </div>
         <div class="input-field">
-          <input id="telephone" type="tel" class="validate" />
+          <input
+            id="telephone"
+            type="tel"
+            class="validate"
+            name="phone_number"
+          />
           <label for="telephone">Phone Number</label>
         </div>
         <div class="input-field">
-          <textarea id="textarea" class="materialize-textarea"></textarea>
+          <textarea
+            id="textarea"
+            class="materialize-textarea"
+            name="message"
+          ></textarea>
           <label for="textarea">Textarea</label>
         </div>
-        <button class="submitButton" type="submit" name="action">
-          Send Message
-        </button>
+        <button class="submitButton" type="submit">Send Message</button>
       </form>
     </div>
   </body>
