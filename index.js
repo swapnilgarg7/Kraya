@@ -41,7 +41,7 @@ const faqAnsArea = document.querySelector(".faqAnsArea");
 const ques = {
   0: "What is Kraya?",
   1: "Why Kraya?",
-  2: "How will things work ?",
+  2: "Problem of social sellers Kraya is solving for ?",
   3: "What is the vision of Kraya?",
 };
 
@@ -65,3 +65,15 @@ faqQue.forEach((que, index) => {
     faqAnsArea.textContent = ans[index];
   });
 });
+
+//mob waitlist
+const EmailMobileCTA = document.querySelector(".EmailMobileCTA");
+const mobEmailSubmitRight = document.querySelector(".mobEmailSubmitRight");
+const mobWaitlistHide = document.querySelector(".mobWaitlistHide");
+
+const toggleMobWaitlist = () => {
+  mobEmailSubmitRight.classList.toggle("mobWaitlistShow");
+};
+
+EmailMobileCTA.addEventListener("click", () => toggleMobWaitlist());
+mobWaitlistHide.addEventListener("click", () => toggleMobWaitlist());
