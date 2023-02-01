@@ -14,20 +14,21 @@ const closeAllAnswers = document.querySelectorAll(".mobfaqs");
 
 faqToggleButton.forEach((button) => {
   button.addEventListener("click", () => {
-    closeAllAnswers.forEach((answer) => {
-      answer.classList.remove("queClicked");
-    });
-    faqToggleButton.forEach((button) => {
-      button.classList.remove("bx-x");
-      button.classList.add("bx-plus");
-    });
     if (button.classList.contains("bx-plus")) {
+      faqToggleButton.forEach((button) => {
+        button.classList.remove("bx-x");
+        button.classList.add("bx-plus");
+      });
+      closeAllAnswers.forEach((answer) => {
+        answer.classList.remove("queClicked");
+      });
       button.classList.remove("bx-plus");
       button.classList.add("bx-x");
       button.parentElement.parentElement.classList.toggle("queClicked");
     } else {
       button.classList.remove("bx-x");
       button.classList.add("bx-plus");
+      button.parentElement.parentElement.classList.toggle("queClicked");
     }
   });
 });

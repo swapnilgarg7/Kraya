@@ -283,6 +283,14 @@ header{
     color: #000;
 }
 
+.emailDissMob{
+    display: none;
+}
+
+.emailDissPc{
+    display: block;
+}
+
 .EmailMobileCTA{
     display: none;
 }
@@ -804,6 +812,15 @@ header{
     margin: 3vh 10vw;
     font-size: 2.2vh;
     color: #000;
+}
+
+
+.emailDissMob{
+    display: block;
+}
+
+.emailDissPc{
+    display: none;
 }
 
 .EmailMobileCTA {
