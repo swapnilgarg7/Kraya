@@ -556,7 +556,7 @@ header{
 }
 
 .author{
-    background: #111;
+    background: rgb(17, 17, 17);
     padding: 10px 23px;
     color: #fff;
     text-align: center;
