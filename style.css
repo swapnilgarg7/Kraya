@@ -555,6 +555,21 @@ header{
     cursor: pointer;
 }
 
+.author{
+    background: #111;
+    padding: 10px 23px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+.author span a{
+    color: #F2C747;
+    text-decoration: none;
+}
+.author span a:hover{
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 426px) {
 
     .navbar{
