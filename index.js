@@ -51,12 +51,9 @@ const ans = {
 
   1: "Being the best is what it takes to burst that damn bubbles! At Kraya, social sellers are who we work for and do our bit to get things moving for them with ease.",
   2: `The problems that we are solving for social sellers are as follows:
-    Very long customer buying journey, a lot of
-  1.back and forth in the DMs.
-  Spamming by people who are not interested
-  2.in your products.
-  Scams happening in this area as the only
-  3.source of connection is through DMs.`,
+    1. Very long customer buying journey, a lot of back and forth in the DMs.
+  2. Spamming by people who are not interested in your products.
+  3. Scams happening in this area as the only source of connection is through DMs.`,
   3: "The vision of Kraya is to change the way people buy and sell things online, and redifine ecommerce “The Kraya Way!” ",
 };
 
